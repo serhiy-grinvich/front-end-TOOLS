@@ -6,7 +6,7 @@
   "scripts": {
     "copy:html": "cp ./src/index.js ./dist/index.html",
     "build:scripts": "webpack --mode=production",
-    "watch:scripts": "webpack --mode=development --devtool eval-source-map -w"
+    "watch:scripts": "webpack --mode=development --devtool eval-source-maps -w"
   },
   "keywords": [],
   "author": "",
