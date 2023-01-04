@@ -34,6 +34,8 @@ module.exports = {
   plugins: [
     // new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin({ template: './src/index.html' }),
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+    }),
   ],
 };
