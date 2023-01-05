@@ -1,6 +1,6 @@
 // file path: src/index.js
 
-import renderProfile from './profile/renderProfile';
+import renderProfile from './profile/renderProfile.js';
 import './index.css';
 
 const profileData = {
